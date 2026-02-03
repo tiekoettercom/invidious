@@ -15,7 +15,6 @@ module Invidious::Routes
     "report-to",
     "cross-origin",
     "timing-allow-origin",
-    "cross-origin-resource-policy
-    ",
+    "cross-origin-resource-policy",
   }
 end
