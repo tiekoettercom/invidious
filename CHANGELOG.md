@@ -1,5 +1,7 @@
 # CHANGELOG
 
+## vX.Y.0 (future)
+
 ## v2.20260207.0
 
 ### Wrap-up
