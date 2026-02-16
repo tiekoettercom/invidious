@@ -166,6 +166,12 @@ player.on('timeupdate', function () {
         let base_url_iv_other = elem_iv_other.getAttribute('data-base-url');
         elem_iv_other.href = addCurrentTimeToURL(base_url_iv_other, domain);
     }
+
+    let elem_iv_listen = document.getElementById('link-iv-listen');
+    if (elem_iv_listen) {
+        let base_url_iv_listen = elem_iv_listen.getAttribute('data-base-url');
+        elem_iv_listen.href = addCurrentTimeToURL(base_url_iv_listen, domain);
+    }
 });
 
 

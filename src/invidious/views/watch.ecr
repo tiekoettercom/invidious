@@ -79,11 +79,11 @@ we're going to need to do it here in order to allow for translations.
     <h1>
         <%= title %>
         <% if params.listen %>
-            <a title="<%=translate(locale, "Video mode")%>" href="/watch?<%= env.params.query %>&listen=0">
+            <a title="<%=translate(locale, "Video mode")%>" id="link-iv-listen" data-base-url="/watch?<%= env.params.query %>&listen=0" href="/watch?<%= env.params.query %>&listen=0">
                 <i class="icon ion-ios-videocam"></i>
             </a>
         <% else %>
-            <a title="<%=translate(locale, "Audio mode")%>" href="/watch?<%= env.params.query %>&listen=1">
+            <a title="<%=translate(locale, "Audio mode")%>" id="link-iv-listen" data-base-url="/watch?<%= env.params.query %>&listen=1" href="/watch?<%= env.params.query %>&listen=1">
                 <i class="icon ion-md-headset"></i>
             </a>
         <% end %>
