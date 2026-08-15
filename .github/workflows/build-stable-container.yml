@@ -79,7 +79,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create and push manifest
-        uses: int128/docker-manifest-create-action@v2.25.0
+        uses: int128/docker-manifest-create-action@v2.26.0
         with:
           push: true
           tags: ghcr.io/${{ github.repository_owner }}/invidious:master
