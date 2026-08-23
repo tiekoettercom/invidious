@@ -25,8 +25,8 @@ on:
       - kubernetes/**
 
       # Nix development files that are not used here.
-      - "*.nix"
-      - flake.flake
+      - .envrc
+      - "nix/**"
 
 jobs:
   build:

@@ -15,8 +15,8 @@ on:
       - .github/ISSUE_TEMPLATE/*
       - kubernetes/**
       # Nix development files that are not used here.
-      - "*.nix"
-      - flake.lock
+      - .envrc
+      - "nix/**"
 
 jobs:
   release:
