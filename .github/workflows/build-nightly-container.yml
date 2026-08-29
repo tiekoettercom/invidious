@@ -22,6 +22,10 @@ permissions:
   contents: read
   packages: write
 
+permissions:
+  contents: read
+  packages: write
+
 jobs:
   release:
     strategy:
